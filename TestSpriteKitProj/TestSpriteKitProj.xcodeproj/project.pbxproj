@@ -10,11 +10,8 @@
 		ACD84E2419FD136600812CD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD84E2319FD136600812CD7 /* main.m */; };
 		ACD84E2719FD136600812CD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD84E2619FD136600812CD7 /* AppDelegate.m */; };
 		ACD84E2A19FD136600812CD7 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD84E2919FD136600812CD7 /* GameScene.m */; };
-		ACD84E2C19FD136600812CD7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ACD84E2B19FD136600812CD7 /* GameScene.sks */; };
 		ACD84E2F19FD136600812CD7 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD84E2E19FD136600812CD7 /* GameViewController.m */; };
-		ACD84E3219FD136600812CD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD84E3019FD136600812CD7 /* Main.storyboard */; };
 		ACD84E3419FD136600812CD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD84E3319FD136600812CD7 /* Images.xcassets */; };
-		ACD84E3719FD136600812CD7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACD84E3519FD136600812CD7 /* LaunchScreen.xib */; };
 		ACD84E4319FD136600812CD7 /* TestSpriteKitProjTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD84E4219FD136600812CD7 /* TestSpriteKitProjTests.m */; };
 /* End PBXBuildFile section */
 
@@ -36,12 +33,9 @@
 		ACD84E2619FD136600812CD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		ACD84E2819FD136600812CD7 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
 		ACD84E2919FD136600812CD7 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
-		ACD84E2B19FD136600812CD7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		ACD84E2D19FD136600812CD7 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		ACD84E2E19FD136600812CD7 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
-		ACD84E3119FD136600812CD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACD84E3319FD136600812CD7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		ACD84E3619FD136600812CD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ACD84E3C19FD136600812CD7 /* TestSpriteKitProjTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSpriteKitProjTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD84E4119FD136600812CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACD84E4219FD136600812CD7 /* TestSpriteKitProjTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSpriteKitProjTests.m; sourceTree = "<group>"; };
@@ -90,12 +84,9 @@
 				ACD84E2619FD136600812CD7 /* AppDelegate.m */,
 				ACD84E2819FD136600812CD7 /* GameScene.h */,
 				ACD84E2919FD136600812CD7 /* GameScene.m */,
-				ACD84E2B19FD136600812CD7 /* GameScene.sks */,
 				ACD84E2D19FD136600812CD7 /* GameViewController.h */,
 				ACD84E2E19FD136600812CD7 /* GameViewController.m */,
-				ACD84E3019FD136600812CD7 /* Main.storyboard */,
 				ACD84E3319FD136600812CD7 /* Images.xcassets */,
-				ACD84E3519FD136600812CD7 /* LaunchScreen.xib */,
 				ACD84E2119FD136600812CD7 /* Supporting Files */,
 			);
 			path = TestSpriteKitProj;
@@ -207,10 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACD84E3719FD136600812CD7 /* LaunchScreen.xib in Resources */,
 				ACD84E3419FD136600812CD7 /* Images.xcassets in Resources */,
-				ACD84E2C19FD136600812CD7 /* GameScene.sks in Resources */,
-				ACD84E3219FD136600812CD7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,25 +241,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		ACD84E3019FD136600812CD7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ACD84E3119FD136600812CD7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		ACD84E3519FD136600812CD7 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ACD84E3619FD136600812CD7 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		ACD84E4419FD136600812CD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -307,7 +276,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -342,7 +311,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -422,6 +391,7 @@
 				ACD84E4819FD136600812CD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACD84E4919FD136600812CD7 /* Build configuration list for PBXNativeTarget "TestSpriteKitProjTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +400,7 @@
 				ACD84E4B19FD136600812CD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
