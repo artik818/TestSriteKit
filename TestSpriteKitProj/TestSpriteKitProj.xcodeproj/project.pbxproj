@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC8BC4DC1A065E34004F2BF0 /* BaseGameObjectsClasses.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8BC4B81A065E34004F2BF0 /* BaseGameObjectsClasses.m */; };
+		AC8BC4E11A065E34004F2BF0 /* GameObjectsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8BC4C71A065E34004F2BF0 /* GameObjectsUtils.m */; };
+		AC8BC5031A06A479004F2BF0 /* Crater.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8BC5021A06A479004F2BF0 /* Crater.m */; };
+		AC8BC50C1A06DD15004F2BF0 /* BackGroundsLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8BC5091A06DD15004F2BF0 /* BackGroundsLayer.m */; };
+		AC8BC50D1A06DD15004F2BF0 /* PodBackGround.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8BC50B1A06DD15004F2BF0 /* PodBackGround.m */; };
+		AC8BC5151A0966E3004F2BF0 /* Redefines.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8BC5141A0966E3004F2BF0 /* Redefines.m */; };
 		ACD84E2419FD136600812CD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD84E2319FD136600812CD7 /* main.m */; };
 		ACD84E2719FD136600812CD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD84E2619FD136600812CD7 /* AppDelegate.m */; };
 		ACD84E2A19FD136600812CD7 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD84E2919FD136600812CD7 /* GameScene.m */; };
@@ -26,6 +32,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC8BC4B71A065E34004F2BF0 /* BaseGameObjectsClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseGameObjectsClasses.h; sourceTree = "<group>"; };
+		AC8BC4B81A065E34004F2BF0 /* BaseGameObjectsClasses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseGameObjectsClasses.m; sourceTree = "<group>"; };
+		AC8BC4C51A065E34004F2BF0 /* GameObjectsProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObjectsProtocols.h; sourceTree = "<group>"; };
+		AC8BC4C61A065E34004F2BF0 /* GameObjectsUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObjectsUtils.h; sourceTree = "<group>"; };
+		AC8BC4C71A065E34004F2BF0 /* GameObjectsUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameObjectsUtils.m; sourceTree = "<group>"; };
+		AC8BC4FB1A06648A004F2BF0 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		AC8BC5011A06A479004F2BF0 /* Crater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crater.h; sourceTree = "<group>"; };
+		AC8BC5021A06A479004F2BF0 /* Crater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Crater.m; sourceTree = "<group>"; };
+		AC8BC5081A06DD15004F2BF0 /* BackGroundsLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackGroundsLayer.h; sourceTree = "<group>"; };
+		AC8BC5091A06DD15004F2BF0 /* BackGroundsLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackGroundsLayer.m; sourceTree = "<group>"; };
+		AC8BC50A1A06DD15004F2BF0 /* PodBackGround.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PodBackGround.h; sourceTree = "<group>"; };
+		AC8BC50B1A06DD15004F2BF0 /* PodBackGround.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PodBackGround.m; sourceTree = "<group>"; };
+		AC8BC5131A0966E3004F2BF0 /* Redefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Redefines.h; sourceTree = "<group>"; };
+		AC8BC5141A0966E3004F2BF0 /* Redefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Redefines.m; sourceTree = "<group>"; };
 		ACD84E1E19FD136600812CD7 /* TestSpriteKitProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSpriteKitProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD84E2219FD136600812CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACD84E2319FD136600812CD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -59,6 +79,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC8BC4B31A065E34004F2BF0 /* GameObjects */ = {
+			isa = PBXGroup;
+			children = (
+				AC8BC5001A06A479004F2BF0 /* Crater */,
+				AC8BC4C51A065E34004F2BF0 /* GameObjectsProtocols.h */,
+				AC8BC4C61A065E34004F2BF0 /* GameObjectsUtils.h */,
+				AC8BC4C71A065E34004F2BF0 /* GameObjectsUtils.m */,
+				AC8BC4B71A065E34004F2BF0 /* BaseGameObjectsClasses.h */,
+				AC8BC4B81A065E34004F2BF0 /* BaseGameObjectsClasses.m */,
+			);
+			path = GameObjects;
+			sourceTree = "<group>";
+		};
+		AC8BC5001A06A479004F2BF0 /* Crater */ = {
+			isa = PBXGroup;
+			children = (
+				AC8BC5011A06A479004F2BF0 /* Crater.h */,
+				AC8BC5021A06A479004F2BF0 /* Crater.m */,
+			);
+			path = Crater;
+			sourceTree = "<group>";
+		};
+		AC8BC5071A06DD15004F2BF0 /* BackGroundLayer */ = {
+			isa = PBXGroup;
+			children = (
+				AC8BC50A1A06DD15004F2BF0 /* PodBackGround.h */,
+				AC8BC50B1A06DD15004F2BF0 /* PodBackGround.m */,
+				AC8BC5081A06DD15004F2BF0 /* BackGroundsLayer.h */,
+				AC8BC5091A06DD15004F2BF0 /* BackGroundsLayer.m */,
+			);
+			path = BackGroundLayer;
+			sourceTree = "<group>";
+		};
+		AC8BC5121A0966E3004F2BF0 /* Redefines */ = {
+			isa = PBXGroup;
+			children = (
+				AC8BC5131A0966E3004F2BF0 /* Redefines.h */,
+				AC8BC5141A0966E3004F2BF0 /* Redefines.m */,
+			);
+			path = Redefines;
+			sourceTree = "<group>";
+		};
 		ACD84E1519FD136600812CD7 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +142,10 @@
 		ACD84E2019FD136600812CD7 /* TestSpriteKitProj */ = {
 			isa = PBXGroup;
 			children = (
+				AC8BC4FB1A06648A004F2BF0 /* Constants.h */,
+				AC8BC5121A0966E3004F2BF0 /* Redefines */,
+				AC8BC5071A06DD15004F2BF0 /* BackGroundLayer */,
+				AC8BC4B31A065E34004F2BF0 /* GameObjects */,
 				ACD84E2519FD136600812CD7 /* AppDelegate.h */,
 				ACD84E2619FD136600812CD7 /* AppDelegate.m */,
 				ACD84E2819FD136600812CD7 /* GameScene.h */,
@@ -217,9 +283,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACD84E2F19FD136600812CD7 /* GameViewController.m in Sources */,
+				AC8BC5151A0966E3004F2BF0 /* Redefines.m in Sources */,
+				AC8BC4DC1A065E34004F2BF0 /* BaseGameObjectsClasses.m in Sources */,
 				ACD84E2719FD136600812CD7 /* AppDelegate.m in Sources */,
 				ACD84E2A19FD136600812CD7 /* GameScene.m in Sources */,
+				AC8BC5031A06A479004F2BF0 /* Crater.m in Sources */,
+				AC8BC50C1A06DD15004F2BF0 /* BackGroundsLayer.m in Sources */,
 				ACD84E2419FD136600812CD7 /* main.m in Sources */,
+				AC8BC50D1A06DD15004F2BF0 /* PodBackGround.m in Sources */,
+				AC8BC4E11A065E34004F2BF0 /* GameObjectsUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,9 +395,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Artem Arakelyan (29V5Z5KS59)";
 				INFOPLIST_FILE = TestSpriteKitProj/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -334,9 +408,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Artem Arakelyan (29V5Z5KS59)";
 				INFOPLIST_FILE = TestSpriteKitProj/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
